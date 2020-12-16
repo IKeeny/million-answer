@@ -4,9 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import {Button} from 'antd-mobile'
+import 'antd-mobile/dist/antd-mobile.css'
+
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Button>Start</Button>
   </React.StrictMode>,
   document.getElementById('root')
 );
